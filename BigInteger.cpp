@@ -854,11 +854,4 @@ istream &operator>>(istream &in, BigInt &n) //cin >> overload
     return in;
 }
 
-int main()
-{
-    BigInt n1;
-    cout << 1 << endl;
-    cin >> n1;
-    cout << n1.fact() << endl;
-    return 0;
-}
+
